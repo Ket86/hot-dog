@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }   
+    body {
+        padding: 20px;
+    }
+    .text  {
+        width:  100%; /* Ширина таблицы */
+        border-spacing: 10px; /* Расстояние между ячейками */
+        margin-left: 20px;
+        margin-right: 20px;
+       }
+    .text td {
+        width: 10%;
+        vertical-align: top; /* Выравнивание по верхнему краю */
+       }
+    .rightcol { /* Правая ячейка */ 
+        text-align: right; /* Выравнивание по правому краю */
+       }
+    .text-style {
+           color: black;
+           font-weight: 700;
+       }
+       .menu {
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: 700;
+        width:  100%;
+       }
+       .wrapp {
+           width: 300px;
+           height: 250px;
+           margin-top: 30px;
+           margin-left: 20px;
+           margin-bottom: 50px;
+           margin-right: 20px;
+       }
+       .menu-name {
+           width: 25%;
+           margin-left: 10px;
+           margin-right: 10px;
+       }
+       .price {
+           font-weight: 100px;
+           font-size: 15px;
+           color: grey;
+           padding-top: 20px;
+           padding-bottom: 20px;
+       }
+       .menu-text {
+        width: 300px;
+        border-spacing:20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .open-button {
+        position: fixed;
+        cursor: pointer;
+        top: 22px;
+        right: 26px;
+        width: 250px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+
+    .form-popup {
+        display: none;
+        position: fixed;
+        top: 250px;
+        left: 250px;
+        right: 50px;
+    } 
+    .form-container {
+        box-sizing: border-box;
+        width: 230px;
+        height: 350px;
+        background-color: rgb(231, 230, 230);
+    }
+    h3 {
+        padding: 5px;
+        width: 230px;
+    }
+    .form {
+        padding: 5px;
+        margin: 20px;
+    }
+    .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+        outline: none;
+        width: 100%;
+    }
+    .form-container .cancel {
+        padding: 5px;
+        margin: 10px;
+        color: white;
+        background-color: black;
+        width: 100px;
+
+    }
+    .form-container .btn {
+        padding: 5px;
+        margin: 10px;
+        color: white;
+        background: black;
+        cursor: pointer;
+    }
+    .edit-btn {
+        cursor: pointer;
+        width: 50px; 
+        height: 30px;
+        text-align: center;
+        padding: 30px;
+        font-size: 25px;
+        font-family: helvetica, serif;
+        text-decoration: none;
+        vertical-align: middle;
+    }

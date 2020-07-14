@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="./css/style2.css">
+    </head>
+
+    <body class="myconteiner">
+        <button class="open-button" onclick="openForm ()">Add hot-dog</button>
+        <div class="form-popup" id="myForm">
+            <form   action="#" class="form-container">
+                <h3> Add new hot-dog</h3>
+
+                <input class="form" placeholder="Name" name="name" required>
+
+                <input class="form" placeholder="Title" name="title" required>
+
+                <input class="form" placeholder="Description" name="description" required>
+                <input class="form" placeholder="Image" name="image" required>
+                <button type="button" class="btn cancel" onclick="closeForm()">No thanks</button>
+                <button type="submit" class="btn">Add</button>
+            </form>
+
+        </div>
+        <table class="text">
+            <tr>
+             <td class="text-style">CRUD</td>
+            </tr>
+           </table><br/>
+           <p>Hod-dogs</p>
+           <table>
+            <tr>
+                <th> <img class="wrapp" src="https://i.pinimg.com/originals/60/48/e2/6048e2ac27a0ce559559c635f62f4f25.jpg"></th>
+                <th><img class="wrapp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8d6j4wmGLpYElz7w_1p71fJBORydtyPWkQA&usqp=CAU"></th>
+                <th><img class="wrapp" src="https://i.pinimg.com/originals/81/37/7b/81377bf71b76704f459fd50c6dd1a871.jpg"></th>
+                <th><img class="wrapp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjUxIDeLxvmUwvBk_Vs9cnnpVcXjjuDlSvSg&usqp=CAU"></th>
+               </tr>
+            <tr class="menu">
+             <td class="menu-name"> New York City</td>
+             <td class="menu-name">Chikago</td>
+             <td class="menu-name">Atlanta and the South</td>
+             <td class="menu-name">Cansas City</td>
+            </tr>
+            <tr class="menu">
+                <td class="price">1$</td>
+                <td class="price">2$</td>
+                <td class="price">2.5$</td>
+                <td class="price">1.2$</td>
+               </tr>
+            <tr>
+                <td class="menu-text">New Yorkers eat more hot dogs than any other group in the country. From downtown Manhattan to Coney Island, when you buy your hot dog in the Big Apple,deli-style yellow mustard.</td>
+                <td class="menu-text">The possible antithesis to New York dogs. Chicago dogs are layered with yellow mustard, dark green relish, topped with a dash ot celery salt and served in a poppy seed bun.</td>
+                <td class="menu-text">Buying a hot dog at Turner Field, home of the Atlanta Braves, or elsewhere in Atlanta and the south, you'll find your dog topped with coleslaw and perhaps some delicious Vidalia onions.</td>
+                <td class="menu-text">Get the mints out - you'll need them when you order up a hot dog in KC as it is served with sauerkraut and melted Swiss cheese on a sesame seed bun.</td>
+               </tr>
+               <tr class="menu">
+                <td class="edit-btn"><button onclick="openForm ()">Edit</button></td>
+                <td class="edit-btn"><button onclick="openForm ()">Edit</button></td>
+                <td class="edit-btn"><button onclick="openForm ()">Edit</button></td>
+                <td class="edit-btn"><button onclick="openForm ()">Edit</button></td>
+               </tr>
+           </table>
+           <a href="#" title="Upgrate" class="" placeholder="Upgrate"></a>
+           <a href="#" title="Delete" class="" placeholder="Delete"></a>
+           <script src="C:\Users\admin\Desktop\Створити папку (5)\myindex.js"></script>
+    </body>
+
+</html>
